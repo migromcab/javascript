@@ -129,3 +129,46 @@ function removeItem(shoppingCart,productName) {
 
 const shoppingCartLessWine= removeItem(shoppingCart2,'Red wine')
 console.log(shoppingCartLessWine)
+
+
+
+
+
+
+
+
+/*
+   5B (CON forEach y Push). Dado el carrito de la compra del ejercicio 1, implementa una función que permita eliminar una unidad de producto del carrito de la compra basándose 
+   en el nombre del producto. Por ejemplo, si la función se invoca con "Red wine", el array debe eliminar ese elemento de la lista porque solo hay 1, pero si se invoca con
+   "Tiramisú", simplemente se restará uno a la propiedad quantity de ese elemento.
+*/
+
+const shoppingCart3 = [
+	{ product: 'Red wine', price: 20, quantity: 1},
+    { product: 'water', price: 1, quantity: 2 },
+    { product: 'Pizza carbonara', price: 10, quantity: 3 },
+    { product: 'Tiramisú', price: 5.99, quantity: 2 }
+]
+
+function removeItem(shoppingCart,productName) {
+    const newShoppingCart = [];
+    shoppingCart.forEach((item) => {
+        if (newItem.product !== productName){
+            newShoppingCart
+        }
+        
+    });
+    return newShoppingCart;
+}
+
+
+
+const shoppingCartLessWine2= removeItem(shoppingCart3,'Red wine')
+console.log(shoppingCartLessWine2)
+
+
+
+
+
+
+

@@ -222,3 +222,8 @@ function vehicleType2 (vehicle) {
     }
     return "Desconocido"
 }
+
+
+
+
+
